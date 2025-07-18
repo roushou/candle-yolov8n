@@ -1,0 +1,13 @@
+[package]
+name = "candle-yolov8n"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.9.1", features = ["metal"] }
+candle-nn = { git = "https://github.com/huggingface/candle.git", version = "0.9.1", features = ["metal"] }
+candle-transformers = { git = "https://github.com/huggingface/candle.git", version = "0.9.1", features = ["metal"] }
+eyre = "0.6.12"
+opencv = "0.95.0"
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
