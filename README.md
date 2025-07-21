@@ -6,6 +6,8 @@ It is built in Rust using [opencv](https://github.com/twistedfall/opencv-rust) a
 
 Inference is done on the GPU using Metal, and post-processing is done on the CPU.
 
+https://github.com/user-attachments/assets/86c057b3-580e-48f9-9393-c6f9ab726555
+
 ## Getting started
 
 You may need to set this environment variable on MacOS. Checkout this [page](https://github.com/twistedfall/opencv-rust?tab=readme-ov-file#environment-variables) to see instructions for your OS.
